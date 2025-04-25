@@ -88,11 +88,11 @@ Order Management and Status Updates
 | Homepage | ![Home](https://github.com/user-attachments/assets/71b9ad1e-8159-4306-bdad-1ad94aafb163)|
 | Cart Page | ![Cart](https://github.com/user-attachments/assets/f682f5ce-2b33-4984-8600-55751146ee0e)|
 | Payment Page | ![Payment](https://github.com/user-attachments/assets/fd3fd134-cac7-4800-8e11-2e440b1098b6) | 
-![image](https://github.com/user-attachments/assets/5e7c3746-c630-468a-87b0-0f1ddda3b622)
+![image](https://github.com/user-attachments/assets/5e7c3746-c630-468a-87b0-0f1ddda3b622) |
 
 
 | User Profile | ![image](https://github.com/user-attachments/assets/e07ea307-efd7-4568-96e6-5d34efb79ba5)|
-| Admin Dashboard | ![image](https://github.com/user-attachments/assets/0824f4a2-b43e-40b5-bb00-509a91220b44)
+| Admin Dashboard | ![image](https://github.com/user-attachments/assets/0824f4a2-b43e-40b5-bb00-509a91220b44) |
 | ![image](https://github.com/user-attachments/assets/47fba8fd-e21c-4ba7-92e0-6b6033c87492) |
 | | ![image](https://github.com/user-attachments/assets/91707213-e7a8-4d56-a3be-dd2348729ff2) |
 
