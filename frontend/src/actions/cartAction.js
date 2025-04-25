@@ -3,7 +3,7 @@ import { ADD_TO_CART, EMPTY_CART, REMOVE_FROM_CART, SAVE_SHIPPING_INFO } from ".
 // add to cart
 export const addItemsToCart = (id, quantity = 1) => async (dispatch, getState) => {
 
-    const response = await fetch(`/api/v1/product/${id}`);
+    const response = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/product/${id}`);
     const data = await response.json();
 
     dispatch({
