@@ -122,25 +122,7 @@ cd frontend
 npm install
 ```
 
-### 3. Configure Environment Variables
 
-Create `.env` files for both frontend and backend.
-
-#### 🔒 Backend `.env`
-
-```env
-PORT=4000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-FRONTEND_URL=https://yourfrontend.vercel.app
-```
-
-#### 💻 Frontend `.env`
-
-```env
-REACT_APP_BACKEND_URL=https://yourbackend.onrender.com
-REACT_APP_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 ```
 
 ---
