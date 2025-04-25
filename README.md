@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c44474f6-64f5-4910-be6e-e74802d2f890)![image](https://github.com/user-attachments/assets/1da0ec0d-d16e-447e-9f78-e7090001317c)# 🛒 Full-Stack Ecommerce App with Stripe Payment Integration
+# 🛒 Full-Stack Ecommerce App with Stripe Payment Integration
 
 A modern full-stack ecommerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js), including advanced features like secure Stripe payments, dynamic cart system, order management, and a responsive UI.
 
