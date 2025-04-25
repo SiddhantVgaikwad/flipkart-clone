@@ -90,9 +90,6 @@ Order Management and Status Updates
 | Payment Page | ![Payment](https://github.com/user-attachments/assets/fd3fd134-cac7-4800-8e11-2e440b1098b6) | 
 | | ![image](https://github.com/user-attachments/assets/5e7c3746-c630-468a-87b0-0f1ddda3b622) |
 | | ![image](https://github.com/user-attachments/assets/5a75b891-7384-4ed6-95a0-2d76cac31c38) |
-
-
-
 | User Profile | ![User Profile](https://github.com/user-attachments/assets/e07ea307-efd7-4568-96e6-5d34efb79ba5)|
 | Admin Dashboard | ![Admin Dashboard](https://github.com/user-attachments/assets/0824f4a2-b43e-40b5-bb00-509a91220b44) |
 |  | ![Admin1](https://github.com/user-attachments/assets/47fba8fd-e21c-4ba7-92e0-6b6033c87492) |
