@@ -11,7 +11,7 @@ export const newOrder = (order) => async (dispatch) => {
             },
         };
 
-        const response = await fetch('/api/v1/order/new', order, config);
+        const response = await fetch('https://flipkart-clone-ajp0.onrender.com/api/v1/order/new', order, config);
         const data = await response.json();
 
         dispatch({
@@ -32,7 +32,7 @@ export const myOrders = () => async (dispatch) => {
     try {
         dispatch({ type: MY_ORDERS_REQUEST });
 
-        const response = await fetch('/api/v1/orders/me');
+        const response = await fetch('https://flipkart-clone-ajp0.onrender.com/api/v1/orders/me');
         const data = await response.json();
 
         dispatch({
@@ -53,7 +53,7 @@ export const getOrderDetails = (id) => async (dispatch) => {
     try {
         dispatch({ type: ORDER_DETAILS_REQUEST });
 
-        const response = await fetch(`/api/v1/order/${id}`);
+        const response = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/order/${id}`);
         const data = await response.json(); 
 
         dispatch({
@@ -74,7 +74,7 @@ export const getPaymentStatus = (id) => async (dispatch) => {
     try {
         dispatch({ type: PAYMENT_STATUS_REQUEST });
 
-        const response = await fetch(`/api/v1/payment/status/${id}`);
+        const response = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/payment/status/${id}`);
         const data = await response.json();
 
         dispatch({
@@ -95,7 +95,7 @@ export const getAllOrders = () => async (dispatch) => {
     try {
         dispatch({ type: ALL_ORDERS_REQUEST });
 
-        const response = await fetch('/api/v1/admin/orders');
+        const response = await fetch('https://flipkart-clone-ajp0.onrender.com/api/v1/admin/orders');
         const data = await response.json();
 
         dispatch({
@@ -122,7 +122,7 @@ export const updateOrder = (id, order) => async (dispatch) => {
             },
         };
 
-        const response = await fetch(`/api/v1/admin/order/${id}`, {
+        const response = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/order/${id}`, {
             method: 'PUT',
             headers: config.headers,
             body: JSON.stringify(order),
@@ -151,7 +151,7 @@ export const deleteOrder = (id) => async (dispatch) => {
     try {
         dispatch({ type: DELETE_ORDER_REQUEST });
 
-        const response = await fetch(`/api/v1/admin/order/${id}`, {
+        const response = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/order/${id}`, {
             method: 'DELETE',
         });
 
