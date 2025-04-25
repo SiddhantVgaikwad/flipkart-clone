@@ -10,7 +10,7 @@ const handleResponse = async (response) => {
 // Add To Wishlist
 export const addToWishlist = (id) => async (dispatch, getState) => {
   try {
-    const res = await fetch(`/api/v1/product/${id}`);
+    const res = await fetch(`https://flipkart-clone-ajp0.onrender.com/api/v1/product/${id}`);
     const data = await handleResponse(res);
 
     dispatch({
