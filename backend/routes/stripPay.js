@@ -31,7 +31,7 @@ router.post('/stripe-checkout', async (req, res) => {
       
       
 
-      success_url: `${process.env.FRONTEND_URL}/order_details/${orderId}`,
+      success_url: `${process.env.FRONTEND_URL}/order/success`,
       cancel_url: `${process.env.FRONTEND_URL}/payment`,
     });
 
