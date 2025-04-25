@@ -63,7 +63,7 @@ const Payment = () => {
       };
 
       if (paymentMethod === 'stripe') {
-        const res = await fetch('/api/v1/payment/stripe-checkout', {
+        const res = await fetch('https://flipkart-clone-ajp0.onrender.com/api/v1/payment/stripe-checkout', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',
@@ -76,7 +76,7 @@ const Payment = () => {
         return;
       }
 
-      const res = await fetch('/api/v1/payment/process', {
+      const res = await fetch('https://flipkart-clone-ajp0.onrender.com/api/v1/payment/process', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
