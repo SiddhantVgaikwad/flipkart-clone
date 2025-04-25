@@ -44,9 +44,9 @@ import {
   export const getProducts = (keyword = "", category, price = [0, 200000], ratings = 0, currentPage = 1) => async (dispatch) => {
     try {
       dispatch({ type: ALL_PRODUCTS_REQUEST });
-      let url = `/api/v1/products?keyword=${keyword}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}&page=${currentPage}`;
+      let url = `https://flipkart-clone-ajp0.onrender.com/api/v1/products?keyword=${keyword}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}&page=${currentPage}`;
       if (category) {
-        url = `/api/v1/products?keyword=${keyword}&category=${category}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}&page=${currentPage}`;
+        url = `https://flipkart-clone-ajp0.onrender.com/api/v1/products?keyword=${keyword}&category=${category}&price[gte]=${price[0]}&price[lte]=${price[1]}&ratings[gte]=${ratings}&page=${currentPage}`;
       }
       const data = await fetcher(url);
       dispatch({ type: ALL_PRODUCTS_SUCCESS, payload: data });
@@ -58,7 +58,7 @@ import {
   export const getSimilarProducts = (category) => async (dispatch) => {
     try {
       dispatch({ type: ALL_PRODUCTS_REQUEST });
-      const data = await fetcher(`/api/v1/products?category=${category}`);
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/products?category=${category}`);
       dispatch({ type: ALL_PRODUCTS_SUCCESS, payload: data });
     } catch (error) {
       dispatch({ type: ALL_PRODUCTS_FAIL, payload: error.message });
@@ -68,7 +68,7 @@ import {
   export const getProductDetails = (id) => async (dispatch) => {
     try {
       dispatch({ type: PRODUCT_DETAILS_REQUEST });
-      const data = await fetcher(`/api/v1/product/${id}`);
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/product/${id}`);
       dispatch({ type: PRODUCT_DETAILS_SUCCESS, payload: data.product });
     } catch (error) {
       dispatch({ type: PRODUCT_DETAILS_FAIL, payload: error.message });
@@ -78,7 +78,7 @@ import {
   export const newReview = (reviewData) => async (dispatch) => {
     try {
       dispatch({ type: NEW_REVIEW_REQUEST });
-      const data = await fetcher("/api/v1/review", {
+      const data = await fetcher("https://flipkart-clone-ajp0.onrender.com/api/v1/review", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(reviewData),
@@ -92,7 +92,7 @@ import {
   export const getSliderProducts = () => async (dispatch) => {
     try {
       dispatch({ type: SLIDER_PRODUCTS_REQUEST });
-      const data = await fetcher("/api/v1/products/all");
+      const data = await fetcher("https://flipkart-clone-ajp0.onrender.com/api/v1/products/all");
       dispatch({ type: SLIDER_PRODUCTS_SUCCESS, payload: data.products });
     } catch (error) {
       dispatch({ type: SLIDER_PRODUCTS_FAIL, payload: error.message });
@@ -102,7 +102,7 @@ import {
   export const getAdminProducts = () => async (dispatch) => {
     try {
       dispatch({ type: ADMIN_PRODUCTS_REQUEST });
-      const data = await fetcher("/api/v1/admin/products");
+      const data = await fetcher("https://flipkart-clone-ajp0.onrender.com/api/v1/admin/products");
       dispatch({ type: ADMIN_PRODUCTS_SUCCESS, payload: data.products });
     } catch (error) {
       dispatch({ type: ADMIN_PRODUCTS_FAIL, payload: error.message });
@@ -112,7 +112,7 @@ import {
   export const createProduct = (productData) => async (dispatch) => {
     try {
       dispatch({ type: NEW_PRODUCT_REQUEST });
-      const data = await fetcher("/api/v1/admin/product/new", {
+      const data = await fetcher("https://flipkart-clone-ajp0.onrender.com/api/v1/admin/product/new", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(productData),
@@ -126,7 +126,7 @@ import {
   export const updateProduct = (id, productData) => async (dispatch) => {
     try {
       dispatch({ type: UPDATE_PRODUCT_REQUEST });
-      const data = await fetcher(`/api/v1/admin/product/${id}`, {
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/product/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(productData),
@@ -140,7 +140,7 @@ import {
   export const deleteProduct = (id) => async (dispatch) => {
     try {
       dispatch({ type: DELETE_PRODUCT_REQUEST });
-      const data = await fetcher(`/api/v1/admin/product/${id}`, { method: "DELETE" });
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/product/${id}`, { method: "DELETE" });
       dispatch({ type: DELETE_PRODUCT_SUCCESS, payload: data.success });
     } catch (error) {
       dispatch({ type: DELETE_PRODUCT_FAIL, payload: error.message });
@@ -150,7 +150,7 @@ import {
   export const getAllReviews = (id) => async (dispatch) => {
     try {
       dispatch({ type: ALL_REVIEWS_REQUEST });
-      const data = await fetcher(`/api/v1/admin/reviews?id=${id}`);
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/reviews?id=${id}`);
       dispatch({ type: ALL_REVIEWS_SUCCESS, payload: data.reviews });
     } catch (error) {
       dispatch({ type: ALL_REVIEWS_FAIL, payload: error.message });
@@ -160,7 +160,7 @@ import {
   export const deleteReview = (reviewId, productId) => async (dispatch) => {
     try {
       dispatch({ type: DELETE_REVIEW_REQUEST });
-      const data = await fetcher(`/api/v1/admin/reviews?id=${reviewId}&productId=${productId}`, { method: "DELETE" });
+      const data = await fetcher(`https://flipkart-clone-ajp0.onrender.com/api/v1/admin/reviews?id=${reviewId}&productId=${productId}`, { method: "DELETE" });
       dispatch({ type: DELETE_REVIEW_SUCCESS, payload: data.success });
     } catch (error) {
       dispatch({ type: DELETE_REVIEW_FAIL, payload: error.message });
