@@ -8,8 +8,8 @@ A modern full-stack ecommerce web application built with the MERN stack (MongoDB
 
 ## 🚀 Live Demo
 
-Frontend: [yourfrontend.vercel.app](https://flipkart-clone-ajp0.onrender.com) 
-
+Frontend: https://flipkart-clone-9anj.onrender.com
+Backend API:https://flipkart-clone-ajp0.onrender.com
 ---
 
 ## 🧰 Tech Stack
