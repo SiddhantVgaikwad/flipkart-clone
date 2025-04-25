@@ -136,12 +136,6 @@ cd backend
 npm run dev
 ```
 
-### Frontend
-
-```bash
-cd frontend
-npm start
-```
 
 ---
 
