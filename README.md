@@ -1,4 +1,4 @@
-# 🛒 Full-Stack Ecommerce App with Stripe Payment Integration
+![image](https://github.com/user-attachments/assets/c44474f6-64f5-4910-be6e-e74802d2f890)![image](https://github.com/user-attachments/assets/1da0ec0d-d16e-447e-9f78-e7090001317c)# 🛒 Full-Stack Ecommerce App with Stripe Payment Integration
 
 A modern full-stack ecommerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js), including advanced features like secure Stripe payments, dynamic cart system, order management, and a responsive UI.
 
@@ -36,6 +36,7 @@ Backend API:https://flipkart-clone-ajp0.onrender.com
 
 - **Authentication**: JWT, Cookies
 - **Deployment**: Vercel (Frontend), Render (Backend), Cloudinary (Image Hosting)
+- **Payments**: Stripe
 
 ---
 
@@ -61,6 +62,16 @@ Backend API:https://flipkart-clone-ajp0.onrender.com
 - View Past Orders
 - Stripe Integration with Indian Regulation Compliance (Name + Address for Export)
 
+### 📈 Admin Dashboard
+
+Dashboard Overview: Total Sales, Users, Orders
+
+Manage Products (CRUD)
+
+Manage Users and Roles
+
+Order Management and Status Updates
+
 ### 🎨 UI/UX
 
 - Modern Responsive Design
@@ -74,10 +85,19 @@ Backend API:https://flipkart-clone-ajp0.onrender.com
 
 | Feature | Screenshot |
 |--------|------------|
-| Homepage | ![Home](https://your-image-link.com/home.png) |
-| Cart Page | ![Cart](https://your-image-link.com/cart.png) |
-| Payment Page | ![Payment](https://your-image-link.com/payment.png) |
-| Order Confirmation | ![Order](https://your-image-link.com/order.png) |
+| Homepage | ![Home](https://github.com/user-attachments/assets/71b9ad1e-8159-4306-bdad-1ad94aafb163)|
+| Cart Page | ![Cart](https://github.com/user-attachments/assets/f682f5ce-2b33-4984-8600-55751146ee0e)|
+| Payment Page | ![Payment](https://github.com/user-attachments/assets/fd3fd134-cac7-4800-8e11-2e440b1098b6) | 
+![image](https://github.com/user-attachments/assets/5e7c3746-c630-468a-87b0-0f1ddda3b622)
+
+
+| User Profile | ![image](https://github.com/user-attachments/assets/e07ea307-efd7-4568-96e6-5d34efb79ba5)|
+| Admin Dashboard | ![image](https://github.com/user-attachments/assets/0824f4a2-b43e-40b5-bb00-509a91220b44)
+| ![image](https://github.com/user-attachments/assets/47fba8fd-e21c-4ba7-92e0-6b6033c87492) |
+| | ![image](https://github.com/user-attachments/assets/91707213-e7a8-4d56-a3be-dd2348729ff2) |
+
+
+ 
 
 ---
 
