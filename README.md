@@ -15,7 +15,6 @@ Backend API:https://flipkart-clone-ajp0.onrender.com
 
 ---
 
-## 🧰 Tech Stack
 
 ## 🖥️ Tech Stack
 **Frontend:**
