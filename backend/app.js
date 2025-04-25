@@ -9,9 +9,7 @@ const cors = require('cors')
 const app = express();
 
 // config
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config({ path: './config/.env' });
-}
+
 
 
 
@@ -24,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(fileUpload());
 
 app.use(cors({
-    origin: 'localhost:3000', // Replace with your frontend URL
+    origin: 'https://flipkart-clone-9anj.onrender.com', // Replace with your frontend URL
     credentials: true, // This is crucial!
 }));
 
