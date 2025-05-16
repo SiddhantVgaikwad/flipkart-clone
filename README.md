@@ -1,4 +1,4 @@
-# 🛒 Full-Stack Ecommerce App with Stripe Payment Integration
+# 🛒 Flipkart a full-Stack Ecommerce App with Stripe Payment Integration
 
 A modern full-stack ecommerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js), including advanced features like secure Stripe payments, dynamic cart system, order management, and a responsive UI.
 
